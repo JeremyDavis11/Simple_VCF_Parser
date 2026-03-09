@@ -79,7 +79,4 @@ This parser assumes that the input VCF file is a standard biallelic, with a refe
 some VCFs store depth information in the FORMAT/sample fields rather than the INFO field, which this parser does not catch.
 
 ### Genotype assumes diploid
-The genotype parsing logic splits on ```/``` and expects exactly two alleles. polyploid calls will not be properly parsed.
-=======
-# Simple_VCF_Parser
-Parse a biallelic VCF file and filter variants based on various criteria defined at the command line.
+The genotype parsing logic splits on `/` and expects exactly two alleles. polyploid calls will not be properly parsed.
